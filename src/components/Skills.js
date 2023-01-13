@@ -1,10 +1,10 @@
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from '../assets/img/meter1';
-import meter2 from '../assets/img/meter2';
-import meter3 from '../assets/img/meter3';
-import colorSharp from '../assets/img/colorSharp';
+import meter1 from '../assets/img/meter1.svg';
+import meter2 from '../assets/img/meter2.svg';
+import meter3 from '../assets/img/meter3.svg';
+import colorSharp from '../assets/img/colorSharp.png';
 
 export const Skills = () => {
     const responsive = {
@@ -37,7 +37,7 @@ export const Skills = () => {
                             Skills
                         </h2>
                         <p>Dummy text </p>
-                        <Carousel responsive={responsive} infinite={true} className="skills-slider">
+                        <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="image" />
                                 <h5>Web Dev</h5>
