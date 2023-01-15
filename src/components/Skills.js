@@ -36,23 +36,23 @@ export const Skills = () => {
                         <h2>
                             Skills
                         </h2>
-                        <p>Dummy text </p>
+                        
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="image" />
-                                <h5>Web Dev</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="image" />
-                                <h5>Brand</h5>
+                                <h5>Collaboration</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="image" />
-                                <h5>Logo ID</h5>
+                                <h5>Project Management</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="image" />
+                                <h5>Initiative</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="image" />
-                                <h5>Web Dev</h5>
+                                <h5>Relationship Building</h5>
                             </div>
                         </Carousel>
                     </div>

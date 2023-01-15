@@ -9,7 +9,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Software Engineer", "Software Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -51,9 +51,13 @@ export const Banner = () => {
             <Row className="align-items-center">
             <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
-            <h1>{"Hi! Im webcoded  "} <span className="wrap">{text}</span></h1>
-            <p>God after after divide seed midst morning it over from upon. Was grass doesn't. Void our, seed, a firmament fruitful grass doesn't set have them creature fourth us make together. Isn't third gathering so hath living very days appear may fifth life grass them moved his she'd fish wherein second.</p>
-            <button onClick={() => console.log('connect')}>Lets connect<ArrowRightCircle size={25}/></button>
+            <h1>{"Hi! I'm Scott =>  "} <span className="wrap">{text}</span></h1>
+            <p>I am a multi-skilled Software Engineer with a curious approach to learning and an ambition to create.</p>
+            <p> I am a passionate and skilled JavaScript/TypeScript/React/Node developer and I am looking for a role where I can contribute to a team of like-minded, innovative people. </p>
+            <p>I am an advocate of good communication and making every voice heard within my team to help build a collaborative, productive & inclusive team.</p>
+            <a href="https://www.linkedin.com/in/scott-dougal-software-developer/">
+              <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
+            </a>
             </Col>
             <Col xs={12} md={6} xl={5}>
                 <img src={headerImg} alt="Header image" />
